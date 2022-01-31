@@ -9,6 +9,10 @@ Alterei os arquivos de configuração do Kafka e do Zookeeper, ajustando as vari
 Não ha necessidade de fazer a alteração abaixo, pois por padrão, os logs são armazenados em diretórios temporários, com isso toda ver que o Kafka/Zookeeper são reinicializados, os dados são perdidos.
 Fazendo essa alteração, os dados se mantem e não são perdidos.
 
+Mantive as portas padrões, 9092 para o KAFKA e 2181 para o ZOOKEEPER. As portas também são parametrizaveis nos arquivos de configuração.
+
+Obs.: O projeto é para exemplificar o desenvolivmento de um Consumer e Producer em JAVA. Em um ambiente produtivo/controlado, diversas outras responsabilidades devem ser abordadas.
+
 ---KAFKA
 Arquivo de configuração: C:\Kafka\kafka_2.12-2.4.0\config\server.properties
 Variavel: log.dirs
