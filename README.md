@@ -14,13 +14,19 @@ Mantive as portas padrões, 9092 para o KAFKA e 2181 para o ZOOKEEPER. As portas
 Obs.: O projeto é para exemplificar o desenvolivmento de um Consumer e Producer em JAVA. Em um ambiente produtivo/controlado, diversas outras responsabilidades devem ser abordadas.
 
 ---KAFKA
+
 Arquivo de configuração: C:\Kafka\kafka_2.12-2.4.0\config\server.properties
+
 Variavel: log.dirs
+
 Valor da Variavel: C:/Kafka/kafka_2.12-2.4.0/data/kafka
 
 ---ZOOKEEPER
+
 Arquivo de configuração: C:\Kafka\kafka_2.12-2.4.0\config\zookeeper.properties
+
 Variavel: dataDir
+
 Valor da Variavel: C:/Kafka/kafka_2.12-2.4.0/data/zookeeper
 
 Comandos utilizados via terminal:
